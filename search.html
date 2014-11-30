@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="de">
     <head>
         <meta charset="UTF-8">
         <title>YuEmTu</title>
@@ -29,7 +29,7 @@
         <div class="jumbotron">
           <div class="container">
             <h1>"Website in der Cloud"</h1>
-            <p>1. Hausübung von Yunus Emrah Tuncer</p>
+            <h2>1. Hausübung von Yunus Emrah Tuncer</h2>
             <a href="http://www.codecademy.com/y8e8t">Link zu meinem Codecademy-Profil</a>
           </div>
         </div>  
@@ -41,6 +41,7 @@
                         <div class="col-md-5">
                             <div class="form-search">
                                 <div class="input-group">
+                                    <label class="sr-only" for="searchbar">Suchbegriffe:</label>
                                     <input 	type="input"  class="form-control"  name="search" placeholder="Ihre Suche">
                                     <div class="input-group-addon"> 
                                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
@@ -50,10 +51,11 @@
                         </div>
                         <div class="col-md-3">
                             <fieldset class="form-group search-option">
+                                <legend class="sr-only">Suchoptionen:</legend>
                                 <input 	name="option" type="radio" value="Artikel" checked>
-                                <label for="article-search-option">Artikel</label>
+                                <label class="form-control" for="article-search-option">Artikel</label>
                                 <input 	name="option" type="radio" value="Volltext">
-                                <label for="fulltext-search-option">Volltext</label>
+                                <label class="form-control" for="fulltext-search-option">Volltext</label>
                             </fieldset>
                         </div>
                         <div class="col-md-2">
