@@ -42,7 +42,7 @@
                             <div class="form-search">
                                 <div class="input-group">
                                     <label class="sr-only" for="searchbar">Suchbegriffe:</label>
-                                    <input 	type="input"  class="form-control"  name="search" placeholder="Ihre Suche">
+                                    <input 	type="input"  class="form-control" id="searchbar" name="search" placeholder="Ihre Suche">
                                     <div class="input-group-addon"> 
                                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                                     </div>
@@ -52,9 +52,9 @@
                         <div class="col-md-3">
                             <fieldset class="form-group search-option">
                                 <legend class="sr-only">Suchoptionen:</legend>
-                                <input 	name="option" type="radio" value="Artikel" checked>
+                                <input 	name="option" id="article-search-option" type="radio" value="Artikel" checked>
                                 <label for="article-search-option">Artikel</label>
-                                <input 	name="option" type="radio" value="Volltext">
+                                <input 	name="option" id="fulltext-search-option" type="radio" value="Volltext">
                                 <label for="fulltext-search-option">Volltext</label>
                             </fieldset>
                         </div>
