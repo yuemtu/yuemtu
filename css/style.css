@@ -1,0 +1,134 @@
+.nav {
+    background: black;
+}
+
+.nav .container {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.nav li {
+  display: inline;
+  margin-top: 500px;
+}
+
+.nav a {
+  color: #b4b4b4;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 25px 25px;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:visited {
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-image: url("../img/bgJumbotron.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 50px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 35px;
+  color: #fff;
+}
+
+.jumbotron a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.jumbotron a:hover {
+    text-decoration: none;
+    color: #e9e9e9;
+  background-color: #286eab;
+}
+
+.jumbotron a:visited {
+    text-decoration: none;
+}
+
+.badges {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.badges h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.badges p {
+    margin-bottom: 13px;
+    font-size: 15px;
+}
+
+.skills {
+  background-color: #f7f7f7;
+}
+
+.skills h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skills a {
+  color: #0084aa;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.skills a:hover {
+  color: #02a7d6;
+  text-decoration: none;
+}
+
+.skills a:visited {
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 15px;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer .copy {
+  margin-left: -40px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
