@@ -68,6 +68,44 @@
     text-decoration: none;
 }
 
+.pull-request {
+  background-color: #f7f7f7;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.pull-request .container {
+    text-align: center;
+}
+
+.pull-request h3 {
+  font-size: 25px;
+}
+
+.pull-request p {
+  margin-top: 20px;
+}
+
+.pull-request a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #337ab7;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.pull-request a:hover {
+    text-decoration: none;
+    color: #e9e9e9;
+    background-color: #286eab;
+}
+
+.pull-request a:visited {
+  text-decoration: none;
+}
+
 .badges {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
@@ -85,6 +123,7 @@
 
 .skills {
   background-color: #f7f7f7;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .skills h3 {
@@ -110,6 +149,7 @@
 
 .footer {
   margin-top: 15px;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .footer li {
@@ -131,4 +171,46 @@
 
 .footer a:visited {
   text-decoration: none;
+}
+
+
+
+/* Impressum */
+
+.disclaimer {
+    border-bottom: 1px solid #dbdbdb;
+    padding-top: 30px; 
+    background-color: #efefef;
+}
+
+.disclaimer .container p:first-child {
+    font-size: 22px;
+}
+
+
+
+
+/* Search */
+
+
+.search-engine {
+    padding: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.form-search {
+    height: 50px; 
+    width: 400px;
+}
+
+#submit-button {
+    width: 110px;
+}
+
+#wcag-logo {
+    width: 100px;
+}
+
+.search-option {
+    padding-top: 7px;
 }
