@@ -194,7 +194,8 @@
 
 
 .search-engine {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-bottom: 1px solid #dbdbdb;
 }
 
