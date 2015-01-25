@@ -175,6 +175,17 @@
 
 
 
+/* Index */
+
+.thumbnail {
+    opacity: 0.5;
+}
+
+#imprintAccordion p {
+    font-size: 14px;
+}
+
+
 /* Impressum */
 
 .disclaimer {
@@ -191,7 +202,6 @@
 
 
 /* Search */
-
 
 .search-engine {
     padding-top: 50px;
@@ -220,8 +230,4 @@
     text-align: center;
     margin-top: 6px;
     color: #a7a7a7;
-}
-
-.thumbnail {
-    opacity: 0.5;
 }
