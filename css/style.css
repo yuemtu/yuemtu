@@ -216,8 +216,6 @@
     padding-top: 7px;
 }
 
-input:focus:invalid{
--webkit-box-shadow: 0 0 3px red;
--moz-box-shadow: 0 0 3px red;
-box-shadow: 0 0 3px red;
+.leftSigns {
+    text-align: center;
 }
