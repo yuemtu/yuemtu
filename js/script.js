@@ -9,10 +9,8 @@
     });
     
     //Impressum
-    $("#imprintAccordion").accordion();
-    
-    
-    
+    $("#imprintAccordion").accordion();   
+       
     //Search
     $("#searchbar").keyup(function(){
         var maxSearch = 59;
