@@ -1,5 +1,5 @@
 ﻿$(document).ready(function(){
-    $(".thumbnail").hover(function(){
+    $(".thumbnail").mouseover(function(){
         $(this).css("opacity","1");
     },
     {
