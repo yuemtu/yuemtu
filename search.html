@@ -43,7 +43,7 @@
                             <div class="form-search">
                                 <div class="input-group">
                                     <label class="sr-only" for="searchbar">Suchbegriffe:</label>
-                                    <input 	type="input"  class="form-control" id="searchbar" name="search" placeholder="Ihre Suche" required="required" />
+                                    <input 	type="input"  class="form-control" id="searchbar" name="search" placeholder="Ihre Suche" maxlength="59" required="required" />
                                     <div class="input-group-addon"> 
                                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                                     </div>
@@ -89,14 +89,6 @@
         <script src="../js/bootstrap.min.js"></script>
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
-        
-        <script>
-            $("#searchbar").keyup(function(){
-                var maxSearch = 59;
-                var searchInput = $(this).val().length;
-                maxSearch -= searchInput;
-                $("#signLeft").html("Noch übrige Zeichen: " + maxSearch);
-            });
-        </script>
+        <script type="text/javascript" src="/js/script.js"></script>
     </body>
 </html>
