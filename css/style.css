@@ -181,10 +181,6 @@
     opacity: 0.5;
 }
 
-#imprintAccordion p {
-    font-size: 14px;
-}
-
 
 /* Impressum */
 
@@ -196,6 +192,10 @@
 
 .disclaimer .container p:first-child {
     font-size: 22px;
+}
+
+#imprintAccordion p {
+    font-size: 14px;
 }
 
 
