@@ -17,7 +17,6 @@ Ext.define('MyTimer.view.Home', {
                     '<p>Dies ist meine erste App in Sencha Touch ...</p>',
                     '<h1>"Website in der Cloud"</h1>',
                     '<p>2. Hausübung von Yunus Emrah Tuncer</p>',
-                    '<p>... und wird nicht die letzte App gewesen sein!</p>',
                 '</div>',
             '</div>'
         ].join(""),

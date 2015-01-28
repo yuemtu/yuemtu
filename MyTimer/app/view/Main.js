@@ -14,11 +14,7 @@ Ext.define('MyTimer.view.Main', {
             }, 
             {
                 xtype:'timerContainer',
-            },
-            {
-            	xtype: 'impressum',
-            }
-             
+            }             
         ]
     }
 });
